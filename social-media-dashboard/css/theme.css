@@ -1,0 +1,42 @@
+:root {
+    --limeGreen: #1db489;
+    --brightRed: #dc414c;
+    --facebook: #198ff5;
+    --twitter: #1ca0f2;
+    --instagram: linear-gradient(to right, #fdc468, #df4996);
+    --youtube: #c4032a;
+    --iconUp: #1eb589;
+    --iconDown: #dc414c;
+}
+
+[site-theme="light"] {
+    --text: #1e1d27;
+    --textAlt: #5f6371;
+    --subtitle: #636574;
+    --highContrast: #fff;
+    --smoothContrast: #ffffff;
+    --lightContrast: #f0f2fa;
+    --lightContrastHover: #e1e3f0;
+    --shadowContainerTop: #ffffff;
+    --labelSwitch: #aeb2cb;
+    --circleSwitch: #fff;
+    --textSwitch: #7e819d;
+    --opacityAttribution: 1;
+    --borderHeaderSwitch: #8a8d9c;
+}
+
+[site-theme="dark"] {
+    --text: #fff;
+    --textAlt: #9097b4;
+    --subtitle: #fff;
+    --highContrast: #1e202a;
+    --smoothContrast: #1f212e;
+    --lightContrast: #252a41;
+    --lightContrastHover: #333a56;
+    --shadowContainerTop: #29292950;
+    --labelSwitch: linear-gradient(to right, #378fe6, #3eda82);
+    --circleSwitch: #272c46;
+    --textSwitch: #7e819d;
+    --opacityAttribution: 0.7;
+    --borderHeaderSwitch: #333649;
+}

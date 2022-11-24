@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.header__primary {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+p.reference {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--textAlt);
+}
+
+.header__secondary {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__secondary p {
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--textSwitch);
+}
+
+.header__secondary label {
+    min-width: 50px;
+    max-width: 50px;
+    background: var(--labelSwitch);
+    height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__secondary label::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--circleSwitch);
+    position: absolute;
+    top: 3px;
+    left: 3.5px;
+    transition: .3s ease;
+}
+
+
+.switchLight label::before {
+    transform: translate(23px);
+}
+
+.header__secondary:not(.switchDark) label:hover {
+    background: linear-gradient(to right, #378fe6, #3eda82);
+}
